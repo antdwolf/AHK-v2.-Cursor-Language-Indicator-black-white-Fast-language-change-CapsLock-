@@ -1,9 +1,11 @@
+# https://stackoverflow.com/questions/42047253/how-to-detect-current-keyboard-language-in-python
+
 import winreg
 import ctypes
 
 user32 = ctypes.WinDLL('user32', use_last_error=True)
-#curr_window = user32.GetForegroundWindow()
-#thread_id = user32.GetWindowThreadProcessId(curr_window, 0)
+# curr_window = user32.GetForegroundWindow()
+# thread_id = user32.GetWindowThreadProcessId(curr_window, 0)
 klid = user32.GetKeyboardLayout(0)  # or (thread_id)
 lid_hex = hex(klid)
 

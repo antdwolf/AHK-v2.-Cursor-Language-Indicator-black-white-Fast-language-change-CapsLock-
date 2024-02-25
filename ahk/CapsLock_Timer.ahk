@@ -1,4 +1,5 @@
 ; https://github.com/antdwolf
+; Adapted from: https://gist.github.com/akaleeroy/23a6d0323f3ae0ff4e2bc7962534cc0c
 
 #Requires AutoHotkey v2.0
 #SingleInstance
