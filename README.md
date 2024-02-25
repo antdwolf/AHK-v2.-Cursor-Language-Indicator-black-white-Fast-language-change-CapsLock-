@@ -2,7 +2,7 @@
 
 <kbd>Windows</kbd> <kbd>AutoHotkey v2</kbd>
  
-![example]()
+![example](https://github.com/antdwolf/AHK-v2.-Cursor-Language-Indicator-black-white-Fast-language-change-CapsLock-/blob/main/ahk/example.gif?raw=true)
 
 ## Differences between the two .ahk scripts
 
@@ -15,7 +15,7 @@
 Changes the cursor regardless of the language change hotkeys you use (uses timer with 300ms periodicity)
 
 - Works correctly for several languages
-- Works with the Windows function ìLet me use a different input method for each app windowî
+- Works with the Windows function ‚ÄúLet me use a different input method for each app window‚Äù
 - Problem*: can change the colour of the cursor while launching applications (actually it is not so critical)
 
 <details>
@@ -35,7 +35,7 @@ CapsLock:: {
 Changes cursor only via CapsLock (e.g. <kbd>Win</kbd> + <kbd>Space</kbd> will change language, but will not change cursor).
 
 - Works correctly for the pair: English + your_language
-- Doesn't work with the Windows function ìLet me use a different input method for each app windowî
+- Doesn't work with the Windows function ‚ÄúLet me use a different input method for each app window‚Äù
 - Uses python script for language detection (failed* to implement this in AHK). Actually requires pre-installed [Python](https://www.python.org/downloads/)
 
 #### * - means problem on AHK operation side
