@@ -1,0 +1,59 @@
+; Тема курсоров
+; Inspired by Adobe by XpucT
+; Автор Аванесян Х.С.
+; https://www.deviantart.com/jailbreakvideo/art/Inspired-by-Adobe-by-XpucT-713301822
+
+[Version]
+signature="$CHICAGO$"
+Inspired by Adobe by XpucT
+https://jailbreakvideo.ru
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+[Scheme.Cur]
+"normal.cur"
+"help.cur"
+"working.ani"
+"busy.ani"
+"precision.cur"
+"_text.cur"
+"handwriting.cur"
+"unavailable.cur"
+"vertical.ani"
+"horizontal.ani"
+"diagonal1.ani"
+"diagonal2.ani"
+"move.cur"
+"alternate.cur"
+"link.cur"
+"pin.cur"
+"person.cur"
+
+[Strings]
+CUR_DIR 		= "Cursors\Inspired by Adobe by XpucT"
+SCHEME_NAME		= "Inspired by Adobe by XpucT"
+pointer			= "normal.cur"
+help			= "help.cur"
+work			= "working.ani"
+busy			= "busy.ani"
+cross			= "precision.cur"
+text			= "_text.cur"
+hand			= "handwriting.cur"
+unavailiable	= "unavailable.cur"
+vert			= "vertical.ani"
+horz			= "horizontal.ani"
+dgn1			= "diagonal1.ani"
+dgn2			= "diagonal2.ani"
+move			= "move.cur"
+alternate		= "alternate.cur"
+link			= "link.cur"
+pin				= "pin.cur"
+person			= "person.cur"

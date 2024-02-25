@@ -1,0 +1,1 @@
+reg export "HKCU\Control Panel\Cursors" %USERPROFILE%\Desktop\cursors_backup.reg
