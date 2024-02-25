@@ -61,6 +61,6 @@ Changes cursor only via CapsLock (e.g. <kbd>Win</kbd> + <kbd>Space</kbd> will ch
 https://gist.github.com/akaleeroy/23a6d0323f3ae0ff4e2bc7962534cc0c
 
  > Used cursors  https://www.deviantart.com/jailbreakvideo/art/Inspired-by-Adobe-by-XpucT-713301822
-	<details>	<summary>Preview</summary>	<img src="https://web.archive.org/web/20210419204601im_/https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/1bd50e0e-6f4c-4776-b7ac-86a8cbaec466/dbsoj7i-227c3b27-7b24-4802-accb-f168ac5fbd2f.png"/>
+	<details>	<summary>Preview</summary>	<img src="https://web.archive.org/web/20210419204601im_/https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/1bd50e0e-6f4c-4776-b7ac-86a8cbaec466/dbsoj7i-227c3b27-7b24-4802-accb-f168ac5fbd2f.png"/> </br>
 	Several cursors are beautifully animated. You can see the animations in the folder of cursors
 	</details>	If you want, you can install the cursors without using AHK scripts by right clicking on "install.inf", then "install"
