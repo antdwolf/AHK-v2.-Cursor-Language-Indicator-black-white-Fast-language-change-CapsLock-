@@ -2,7 +2,7 @@
 
 <kbd>Windows</kbd> <kbd>AutoHotkey v2</kbd>
  
-![example]()
+![example](https://github.com/antdwolf/AHK-v2.-Cursor-Language-Indicator-black-white-Fast-language-change-CapsLock-/blob/main/ahk/example.gif?raw=true)
 
 ## Differences between the two .ahk scripts
 
@@ -15,7 +15,7 @@
 Changes the cursor regardless of the language change hotkeys you use (uses timer with 300ms periodicity)
 
 - Works correctly for several languages
-- Works with the Windows function ìLet me use a different input method for each app windowî
+- Works with the Windows function ‚ÄúLet me use a different input method for each app window‚Äù
 - Problem*: can change the colour of the cursor while launching applications (actually it is not so critical)
 
 <details>
@@ -35,7 +35,7 @@ CapsLock:: {
 Changes cursor only via CapsLock (e.g. <kbd>Win</kbd> + <kbd>Space</kbd> will change language, but will not change cursor).
 
 - Works correctly for the pair: English + your_language
-- Doesn't work with the Windows function ìLet me use a different input method for each app windowî
+- Doesn't work with the Windows function ‚ÄúLet me use a different input method for each app window‚Äù
 - Uses python script for language detection (failed* to implement this in AHK). Actually requires pre-installed [Python](https://www.python.org/downloads/)
 
 #### * - means problem on AHK operation side
@@ -61,6 +61,6 @@ Changes cursor only via CapsLock (e.g. <kbd>Win</kbd> + <kbd>Space</kbd> will ch
 https://gist.github.com/akaleeroy/23a6d0323f3ae0ff4e2bc7962534cc0c
 
  > Used cursors  https://www.deviantart.com/jailbreakvideo/art/Inspired-by-Adobe-by-XpucT-713301822
-	<details>	<summary>Preview</summary>	<img src="https://web.archive.org/web/20210419204601im_/https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/1bd50e0e-6f4c-4776-b7ac-86a8cbaec466/dbsoj7i-227c3b27-7b24-4802-accb-f168ac5fbd2f.png"/>
+	<details>	<summary>Preview</summary>	<img src="https://web.archive.org/web/20210419204601im_/https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/1bd50e0e-6f4c-4776-b7ac-86a8cbaec466/dbsoj7i-227c3b27-7b24-4802-accb-f168ac5fbd2f.png"/> </br>
 	Several cursors are beautifully animated. You can see the animations in the folder of cursors
 	</details>	If you want, you can install the cursors without using AHK scripts by right clicking on "install.inf", then "install"
